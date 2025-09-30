@@ -20,11 +20,18 @@ body {
     color: rgb(75, 85, 99);
     background-color: rgb(255, 255, 255);
     line-height: 1.5;
+    font-weight: 400;
+}
+
+section {
+    min-height: 70dvh;
+    padding: 50px 3rem;
+    width: 100%;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: #1d1c1c;
 }
 
 ul {
@@ -42,5 +49,20 @@ img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    /* display: block; */
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #0c1825;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
 }

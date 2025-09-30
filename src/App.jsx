@@ -4,9 +4,9 @@ import Invest from "./components/Invest";
 
 function App() {
   return (
-    <>
+    <div className="main-container">
       <LandingPage />
-    </>
+    </div>
   );
 }
 
