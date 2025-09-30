@@ -4,10 +4,10 @@ import Invest from "./components/Invest";
 
 function App() {
   return (
-    <>
+    <div className="main-container">
       <h1>Ejara Website Clone</h1>
       <LandingPage />
-    </>
+    </div>
   );
 }
 
