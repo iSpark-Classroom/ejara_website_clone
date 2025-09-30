@@ -5,6 +5,7 @@ import Invest from "./components/Invest";
 function App() {
   return (
     <>
+      <h1>Ejara Website Clone</h1>
       <LandingPage />
     </>
   );
