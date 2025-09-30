@@ -1,0 +1,60 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+  margin-bottom: 4rem;
+}
+
+.footer-logo {
+  height: 32px;
+  width: auto;
+}
+
+.resource,
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.resource-links,
+.products-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Adding the download buttons in a flex container */
+.footer-download-app {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Adjusting the size of the download buttons  */
+.footer-download-app a img {
+  height: 56px;
+  width: 180px;
+  border-radius: 8px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0px;
+  width: 100%;
+  max-width: 1440px;
+  border-top: 1px solid #e7e8ea;
+}

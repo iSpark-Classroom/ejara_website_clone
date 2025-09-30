@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/hero-sections.css"; // Importing CSS
+import "../../styles/landing-page/info-sections.css"; // Importing CSS
 
 const section1 = {
   id: 1,

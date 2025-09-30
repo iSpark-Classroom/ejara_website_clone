@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/landing-page.css"; // Importing CSS
+import "../../styles/landing-page/hero-section.css"; // Importing CSS
 
 const Hero = () => {
   return (
