@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  margin: 0px auto;
+  backdrop-filter: blur(16px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #e7e8ea;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.header-logo {
+  height: 32px;
+  width: auto;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.sub-menu-item {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.save-menu-item,
+.invest-menu-item,
+.menu-item {
+  position: relative;
+}
+
+.globe-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.region {
+  display: flex;
+  gap: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.sub-menu-items,
+.save-sub-menu-items,
+.invest-sub-menu-items {
+  display: none;
+}
+
+.region:hover .sub-menu-items,
+.save-menu-item:hover .save-sub-menu-items,
+.invest-menu-item:hover .invest-sub-menu-items {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 10;
+  background-color: #e7e8ea;
+  border-radius: 8px;
+  padding: 0.4rem;
+  top: 10;
+  left: -100%;
+}
