@@ -3,7 +3,7 @@ import "../../styles/landing-page/footer.css"; // Importing CSS
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="footer-top">
         <img
           className="footer-logo"
@@ -53,7 +53,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>Copyright &copy; {new Date().getFullYear()} EJARA</p>
       </div>
-    </div>
+    </footer>
   );
 };
 

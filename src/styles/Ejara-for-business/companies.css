@@ -1,0 +1,40 @@
+
+.companies{
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+
+}
+.target{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.images{
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+.icons{
+
+    display: flex;
+    border-radius: 100px;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    gap: 20px;
+    
+
+}
+h2{
+
+    font-size: 36px;
+
+
+}

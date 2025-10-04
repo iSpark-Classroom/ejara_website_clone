@@ -1,0 +1,17 @@
+
+.business{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-image: url(images/Ejara-assets/Ejara_for_business/images/business.jpeg) ;
+    width: 100vw;
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0 auto;
+}
