@@ -1,22 +1,27 @@
 import React from "react";
 import "../../styles/landing-page/header.css"; // Importing CSS
+import { Link } from "react-router-dom";
+import EjaraForBusiness from '../Ejara-for-business/index';
 
 const Header = () => {
   return (
     <header className="header">
       <nav className="nav-bar">
+        <Link to="/">
+        
         <img
           className="header-logo"
           src="images/Ejara-assets/landingPage_images/imgi_1_67f657686c86f47cedc4c5f9_Logo Horizontal.svg"
           alt="Ejara Logo"
         />
+        </Link>
 
         <ul className="menu-items">
           <li className="save-menu-item">
             Save
             <ul className="save-sub-menu-items">
               <li>
-                <a className="sub-menu-item" href="#">
+                <Link className="sub-menu-item" to="/saving-box">
                   <div>
                     <img
                       src="images/Ejara-assets/landingPage_images/download (2).svg"
@@ -27,10 +32,10 @@ const Header = () => {
                     <h4>Savings Box</h4>
                     <p>Saving for Emergencies</p>
                   </div>
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="sub-menu-item" href="#">
+                <Link className="sub-menu-item" to="/saving-project">
                   <div>
                     <img
                       src="images/Ejara-assets/landingPage_images/download (1).svg"
@@ -41,7 +46,7 @@ const Header = () => {
                     <h4>Project Savings</h4>
                     <p>Save for your projects</p>
                   </div>
-                </a>
+                </Link>
               </li>
             </ul>
           </li>
@@ -49,7 +54,7 @@ const Header = () => {
             Invest
             <ul className="invest-sub-menu-items">
               <li>
-                <a className="sub-menu-item" href="#">
+                <Link className="sub-menu-item" to="/invest">
                   <div>
                     <img
                       src="images/Ejara-assets/landingPage_images/download.svg"
@@ -60,12 +65,12 @@ const Header = () => {
                     <h4>Investment</h4>
                     <p>Earn up to 6.5% annual interest</p>
                   </div>
-                </a>
+                </Link>
               </li>
             </ul>
           </li>
           <li>
-            <a href="#">Ejara for Business</a>
+             <Link to="/business">EjaraForBusiness</Link>
           </li>
         </ul>
 
