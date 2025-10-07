@@ -16,6 +16,7 @@ justify-content: center;
 align-items: center;
 gap: 30px;
 text-align: center;
+width:56%;
 }
 
 .images{
@@ -87,6 +88,6 @@ font-size: 16px;
 }
 .paragraph-2{
     color: RGB(75, 85, 99);
-    font-size: 16px;
+    font-size: 20px;
     
 }
