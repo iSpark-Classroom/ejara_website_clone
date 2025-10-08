@@ -1,0 +1,47 @@
+.global {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9fafb;
+  padding: 80px;
+}
+
+.global-p {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+.button img {
+  height: 24px;
+  width: 32px;
+  border-radius: 6px;
+}
+
+.button p {
+  font-size: 14px;
+}
+
+.global-images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.global-p p {
+  font-size: 20px;
+}

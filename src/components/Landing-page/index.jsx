@@ -7,10 +7,10 @@ import Header from "./Header";
 const LandingPage = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <Sections />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

@@ -1,0 +1,31 @@
+.business {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(src/assets/business.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 75px;
+  height: 500px;
+  gap: 28px;
+  font-family: system-ui sans-serif;
+}
+.business h1 {
+  color: RGB(255, 255, 255);
+  font-size: 60px;
+}
+
+.business p {
+  color: RGB(255, 255, 255);
+  font-size: 20px;
+}
+.business button {
+  height: 62px;
+  width: 250px;
+  color: #2563eb;
+  background-color: #eff6ff;
+  font-size: 18px;
+  border-radius: 40px;
+}
