@@ -70,15 +70,13 @@ const Header = () => {
         </ul>
 
         <ul>
-          <li>
-            <div className="region-menu-item">
-              <img
-                className="globe-icon"
-                src="images/Ejara-assets/landingPage_images/download (5).svg"
-                alt="Region icon"
-              />
-              <p>Africa</p>
-            </div>
+          <li className="region-menu-item">
+            <img
+              className="globe-icon"
+              src="images/Ejara-assets/landingPage_images/download (5).svg"
+              alt="Region icon"
+            />
+            <p>Africa</p>
             <ul className="region-sub-menu-items">
               <li className="sub-menu-item">
                 <a href="#">Africa</a>

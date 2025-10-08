@@ -36,10 +36,11 @@
 .nav-menu {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: center;
   align-items: baseline;
   cursor: pointer;
+  position: relative;
 }
 
 .save-sub-menu-items,
@@ -96,6 +97,36 @@
 .globe-icon {
   height: 16px;
   width: 16px;
+}
+
+.save-menu-item > .save-sub-menu-items {
+  display: none;
+}
+
+.save-menu-item:hover > .save-sub-menu-items {
+  display: block;
+  position: absolute;
+  top: 130%;
+}
+
+.invest-menu-item > .invest-sub-menu-items {
+  display: none;
+}
+
+.invest-menu-item:hover > .invest-sub-menu-items {
+  display: block;
+  position: absolute;
+  top: 130%;
+}
+
+.region-menu-item > .region-sub-menu-items {
+  display: none;
+}
+
+.region-menu-item:hover > .region-sub-menu-items {
+  display: block;
+  position: absolute;
+  top: 70%;
 }
 
 /* 
