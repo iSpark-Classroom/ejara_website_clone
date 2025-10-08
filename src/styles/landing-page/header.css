@@ -48,11 +48,13 @@
 .region-sub-menu-items {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 0.5rem;
-  background-color: rgb(230, 255, 251);
+  background-color: rgb(255, 255, 255);
   padding: 0.5rem;
   position: relative;
   border-radius: 8px;
+  box-shadow: 0px 4px 8px -2px hsla(0, 0%, 0%, 0.2);
 }
 
 .sub-menu-item,
@@ -66,22 +68,29 @@
 .region-menu-item {
   gap: 0.5rem;
   align-items: center;
+  position: relative;
 }
 
 .region-sub-menu-items {
   display: flex;
+  width: 120px;
 }
 
 .sub-menu-item {
-  background-color: rgb(255, 253, 248);
+  background-color: rgb(255, 255, 255);
   padding: 8px;
   border-radius: 4px;
+}
+
+.sub-menu-item:hover {
+  background-color: rgb(250, 250, 250);
 }
 
 .sub-menu-detail {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  width: 230px;
 }
 
 .icon-container {
@@ -106,7 +115,8 @@
 .save-menu-item:hover > .save-sub-menu-items {
   display: block;
   position: absolute;
-  top: 130%;
+  top: 100%;
+  left: -50%;
 }
 
 .invest-menu-item > .invest-sub-menu-items {
@@ -116,7 +126,8 @@
 .invest-menu-item:hover > .invest-sub-menu-items {
   display: block;
   position: absolute;
-  top: 130%;
+  top: 100%;
+  left: -10%;
 }
 
 .region-menu-item > .region-sub-menu-items {
@@ -126,59 +137,6 @@
 .region-menu-item:hover > .region-sub-menu-items {
   display: block;
   position: absolute;
-  top: 70%;
+  top: 100%;
+  left: -10%;
 }
-
-/* 
-.menu-items {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 2rem;
-  cursor: pointer;
-}
-
-.sub-menu-item {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  cursor: pointer;
-}
-
-.save-menu-item,
-.invest-menu-item,
-.menu-item {
-  position: relative;
-}
-
-.globe-icon {
-  height: 16px;
-  width: 16px;
-}
-
-.region {
-  display: flex;
-  gap: 4px;
-  cursor: pointer;
-  position: relative;
-}
-
-.sub-menu-items,
-.save-sub-menu-items,
-.invest-sub-menu-items {
-  display: none;
-}
-
-.region:hover .sub-menu-items,
-.save-menu-item:hover .save-sub-menu-items,
-.invest-menu-item:hover .invest-sub-menu-items {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  z-index: 10;
-  background-color: #e7e8ea;
-  border-radius: 8px;
-  padding: 0.4rem;
-  top: 10;
-  left: -100%;
-} */
