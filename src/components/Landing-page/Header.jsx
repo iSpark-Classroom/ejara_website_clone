@@ -11,19 +11,19 @@ const Header = () => {
           alt="Ejara Logo"
         />
 
-        <ul className="menu-items">
+        <ul className="nav-menu">
           <li className="save-menu-item">
             Save
             <ul className="save-sub-menu-items">
               <li>
                 <a className="sub-menu-item" href="#">
-                  <div>
+                  <div className="icon-container">
                     <img
                       src="images/Ejara-assets/landingPage_images/download (2).svg"
                       alt="savings icon"
                     />
                   </div>
-                  <div>
+                  <div className="sub-menu-detail">
                     <h4>Savings Box</h4>
                     <p>Saving for Emergencies</p>
                   </div>
@@ -31,13 +31,13 @@ const Header = () => {
               </li>
               <li>
                 <a className="sub-menu-item" href="#">
-                  <div>
+                  <div className="icon-container">
                     <img
                       src="images/Ejara-assets/landingPage_images/download (1).svg"
                       alt="goal icon"
                     />
                   </div>
-                  <div>
+                  <div className="sub-menu-detail">
                     <h4>Project Savings</h4>
                     <p>Save for your projects</p>
                   </div>
@@ -50,13 +50,13 @@ const Header = () => {
             <ul className="invest-sub-menu-items">
               <li>
                 <a className="sub-menu-item" href="#">
-                  <div>
+                  <div className="icon-container">
                     <img
                       src="images/Ejara-assets/landingPage_images/download.svg"
                       alt="wallet icon"
                     />
                   </div>
-                  <div>
+                  <div className="sub-menu-detail">
                     <h4>Investment</h4>
                     <p>Earn up to 6.5% annual interest</p>
                   </div>
@@ -70,27 +70,29 @@ const Header = () => {
         </ul>
 
         <ul>
-          <li className="menu-items region">
-            <img
-              className="globe-icon"
-              src="images/Ejara-assets/landingPage_images/download (5).svg"
-              alt="Region icon"
-            />
-            Africa
-            <ul className="sub-menu-items">
-              <li>
+          <li>
+            <div className="region-menu-item">
+              <img
+                className="globe-icon"
+                src="images/Ejara-assets/landingPage_images/download (5).svg"
+                alt="Region icon"
+              />
+              <p>Africa</p>
+            </div>
+            <ul className="region-sub-menu-items">
+              <li className="sub-menu-item">
                 <a href="#">Africa</a>
               </li>
-              <li>
+              <li className="sub-menu-item">
                 <a href="#">Europe</a>
               </li>
-              <li>
+              <li className="sub-menu-item">
                 <a href="#">Americas</a>
               </li>
-              <li>
+              <li className="sub-menu-item">
                 <a href="#">Asia</a>
               </li>
-              <li>
+              <li className="sub-menu-item">
                 <a href="#">Oceania</a>
               </li>
             </ul>
