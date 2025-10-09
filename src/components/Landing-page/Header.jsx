@@ -1,7 +1,10 @@
 import React from "react";
+import { useState } from "react";
 import "../../styles/landing-page/header.css"; // Importing CSS
 
 const Header = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <header className="header">
       <nav className="nav-bar">
@@ -98,9 +101,12 @@ const Header = () => {
         </ul>
 
         <img
-          className="hamburger-menu"
+          className={toggleMenu ? "toggle-on" : "toggle-off"}
           src="images/Ejara-assets/landingPage_images/download (4).svg"
           alt="hamburger menu"
+          onClick={() => {
+            setToggleMenu(!toggleMenu);
+          }}
         />
       </nav>
     </header>
