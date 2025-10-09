@@ -13,17 +13,12 @@ function App() {
   return (
     <BrowserRouter className="main-container">
       <Header />
-
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/saving-box" element={<SavingBox />} />
         <Route path="/saving-project" element={<SavingProject />} />
         <Route path="/invest" element={<Invest />} />
         <Route path="/business" element={<EjaraForBusiness />} />
-        <Route
-          path="/terms-and-conditions"
-          element={<Terms-and-conditions />}
-        />
       </Routes>
       <Footer />
     </BrowserRouter>
