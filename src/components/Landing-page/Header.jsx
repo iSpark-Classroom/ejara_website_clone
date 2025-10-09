@@ -96,6 +96,12 @@ const Header = () => {
             </ul>
           </li>
         </ul>
+
+        <img
+          className="hamburger-menu"
+          src="images/Ejara-assets/landingPage_images/download (4).svg"
+          alt="hamburger menu"
+        />
       </nav>
     </header>
   );
