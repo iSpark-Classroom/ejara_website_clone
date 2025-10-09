@@ -140,3 +140,39 @@
   top: 100%;
   left: -10%;
 }
+
+.hamburger-menu {
+  display: none;
+}
+
+/******************************************************
+//      Media queries for responsiveness              //
+*******************************************************/
+
+/* Medium screen size  */
+
+@media (max-width: 820px) {
+}
+
+/* table screen size  */
+
+@media (max-width: 620px) {
+  .nav-menu,
+  .region-menu-item {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: inline-block;
+  }
+}
+
+/* phone screen size  */
+
+@media (max-width: 480px) {
+}
+
+/* small screen size  */
+
+@media (max-width: 390px) {
+}
