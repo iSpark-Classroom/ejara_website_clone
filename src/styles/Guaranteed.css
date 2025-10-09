@@ -1,0 +1,24 @@
+.capital {
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 5em;
+}
+
+.ota-cameroon {
+    display: flex;
+    justify-content: center;
+
+}
+
+.accessible {
+    display: flex ;
+    justify-content: center;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+
+}
