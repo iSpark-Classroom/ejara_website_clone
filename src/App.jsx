@@ -9,27 +9,19 @@ import SavingProject from "./components/Savings/SavingProject";
 import Footer from "./components/Landing-page/Footer";
 
 function App() {
-    
   return (
     <BrowserRouter className="main-container">
-   <Header/>
-
-
-     <Routes>
+      <Header />
+      <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/saving-box" element={<SavingBox />} />
         <Route path="/saving-project" element={<SavingProject />} />
         <Route path="/invest" element={<Invest />} />
-        <Route path="/business" element={<EjaraForBusiness/>} />
-        
-        
-
+        <Route path="/business" element={<EjaraForBusiness />} />
       </Routes>
-      <Footer/>
-
+      <Footer />
     </BrowserRouter>
   );
-  
 }
 
 export default App;
