@@ -7,29 +7,27 @@ import Header from "./components/Landing-page/Header";
 import SavingBox from "./components/Savings/SavingBox";
 import SavingProject from "./components/Savings/SavingProject";
 import Footer from "./components/Landing-page/Footer";
+import Body from "./components/Terms-and-conditions/Body";
 
 function App() {
-    
   return (
     <BrowserRouter className="main-container">
-   <Header/>
+      <Header />
 
-
-     <Routes>
+      <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/saving-box" element={<SavingBox />} />
         <Route path="/saving-project" element={<SavingProject />} />
         <Route path="/invest" element={<Invest />} />
-        <Route path="/business" element={<EjaraForBusiness/>} />
-        
-        
-
+        <Route path="/business" element={<EjaraForBusiness />} />
+        <Route
+          path="/terms-and-conditions"
+          element={<Terms-and-conditions />}
+        />
       </Routes>
-      <Footer/>
-
+      <Footer />
     </BrowserRouter>
   );
-  
 }
 
 export default App;
