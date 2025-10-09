@@ -2,143 +2,132 @@
 //      Styling the CSS for the Landing page         //
 *******************************************************/
 
-
 /* Hero section container */
 
 .hero-container {
-    margin: 8rem auto;
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    justify-content: center;
-    align-items: center;
+  margin: 8rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
 }
-
 
 /* Div that holds the heading, paragraph and app download */
 
 .hero-text {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
-
 
 /* Targeting and styling main heading for the landing page */
 
 .hero-text h1 {
-    font-size: 60px;
-    font-weight: 700;
-    text-align: center;
-    text-wrap: pretty;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  text-wrap: pretty;
 }
-
 
 /* Adjusting paragraph font for the hero section */
 
 .hero-text p {
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 1rem;
-    text-align: center;
-    text-wrap: pretty;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-wrap: pretty;
 }
-
 
 /* Adding the download buttons in a flex container */
 
 .download-app {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
-
 
 /* Adjusting the size of the download buttons  */
 
 .download-app a img {
-    height: 64px;
-    width: 220px;
-    border-radius: 8px;
+  height: 64px;
+  width: 220px;
+  border-radius: 8px;
 }
-
 
 /* Hero image stylings start here */
 
 .hero-image {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .hero-image-main {
-    width: 35%;
-    height: auto;
+  width: 35%;
+  height: auto;
 }
 
 .hero-image-banner {
-    width: 100%;
-    height: auto;
-    margin-top: -5rem;
+  /* width: 20%; */
+  height: auto;
+  margin-top: -5rem;
 }
-
 
 /******************************************************
 //      Media queries for responsiveness              //
 *******************************************************/
 
-
 /* Medium screen size  */
 
 @media (max-width: 820px) {
-    .hero-image-main {
-        width: 80%;
-        height: auto;
-    }
-    .hero-image-banner {
-        margin-top: -2rem;
-    }
+  .hero-image-main {
+    width: 80%;
+    height: auto;
+  }
+  .hero-image-banner {
+    margin-top: -2rem;
+  }
 }
-
 
 /* table screen size  */
 
 @media (max-width: 620px) {
-    .hero-container {
-        margin: 4rem auto;
-        gap: 3rem;
-    }
-    .hero-text h1 {
-        font-size: 40px;
-    }
-    .download-app {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
-    .download-app a img {
-        height: 48px;
-        width: 160px;
-    }
+  .hero-container {
+    margin: 4rem auto;
+    gap: 3rem;
+  }
+  .hero-text h1 {
+    font-size: 40px;
+  }
+  .download-app {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .download-app a img {
+    height: 48px;
+    width: 160px;
+  }
 }
-
 
 /* phone screen size  */
 
 @media (max-width: 480px) {
-    .hero-text h1 {
-        font-size: 36px;
-    }
-    .hero-text p {
-        font-size: 18px;
-    }
+  .hero-text h1 {
+    font-size: 36px;
+  }
+  .hero-text p {
+    font-size: 18px;
+  }
 }
-
 
 /* small screen size  */
 
-@media (max-width: 390px) {}
+@media (max-width: 390px) {
+}
