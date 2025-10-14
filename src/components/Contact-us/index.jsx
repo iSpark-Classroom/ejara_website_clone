@@ -3,6 +3,8 @@ import Info from "./Info";
 import ContactForm from "./Contact-form";
 import '../../styles/contact-us/index.css'
 import { useTranslation } from "react-i18next";
+import '../../styles/contact-us/Contact-form.css'
+import '../../styles/contact-us/Info.css'
 
 const ContactUs = () => {
 

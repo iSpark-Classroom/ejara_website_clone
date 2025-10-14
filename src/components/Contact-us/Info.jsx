@@ -1,14 +1,28 @@
 import React from "react";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
-const Info = ({t}) => {
+const Info = () => {
   return (
-    <div className="">
-      <div className="">
+    <div>
+        <div> 
+            <h2>Contact Us</h2>
+            <p>We are bridging the gap between service providers and end users</p>
+        </div>&nbsp;
         <div>
-          <h2 className="contact-card">{t("title")}</h2>
-          <p>{t("subtitle")}</p>
+          < classname ="phones" FaPhoneAlt />
+            <h5>Chat with our Experts</h5>
+            <p>+09373847848(WhatsApp)
+                +2345746474(WhatsApp)
+            </p>
+
+            < classname ="mails" IoMdMail />
+            <h5>Send us a mail</h5>
+            <p>Our friendly team is here to help you.Send a mail to 
+                <a>Epsilon@gmail.com</a>
+            </p>
         </div>
-      </div>
+        <div>Connect with us on social media</div>
     </div>
   );
 };
