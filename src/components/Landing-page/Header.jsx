@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/landing-page/header.css"; // Importing CSS
 import { Link } from "react-router";
+import LanguageSelector from "../language-selector";
 
 const Header = () => {
   return (
@@ -71,6 +72,8 @@ const Header = () => {
             <Link to="/business">Ejara for Business</Link>
           </li>
         </ul>
+
+        <LanguageSelector/>
 
         <ul>
           <li className="region-menu-item">
