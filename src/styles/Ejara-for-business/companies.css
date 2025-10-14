@@ -1,0 +1,93 @@
+
+.companies{
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+margin: 70px;
+justify-content: space-between;
+gap: 70px;
+
+}
+.target{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+text-align: center;
+width:56%;
+}
+
+.images{
+display: flex;
+justify-content: center;
+gap: 20px;
+height: 40px;
+width: 98%;
+
+}
+
+.icons{
+
+    display: flex;
+    border-radius: 60px;
+    background-color:#9333EA;
+    align-items: center;
+    justify-content: center;
+    color: RGB(255, 255, 255);
+    /* max-height: 45px; */
+    gap: 10px;
+    font-size: 14px;
+    flex-grow: 0.06;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+
+
+
+
+.react-icon{
+
+color: aliceblue;
+
+}
+.companies h1{
+color: #111827;
+background-color: #000000;
+background-color:
+font-family (stack):DM Sans system-ui sans-serif;
+font-size :36px; 
+font-weight :700;
+font-style: normal; 
+font-variant: normal;
+ font-kerning:auto;
+ font-optical-sizing: auto;
+ font-stretch :100%;
+ font-variation-settings: normal;
+ font-feature-settings: normal; 
+ text-transform:none; 
+ text-decoration: none: 
+ text-align :center;
+ text-indent: 0px;
+
+
+}
+
+.our-target{
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.paragraph-1{
+color: RGB(147, 51, 234);
+font-size: 16px;
+}
+.paragraph-2{
+    color: RGB(75, 85, 99);
+    font-size: 20px;
+    
+}

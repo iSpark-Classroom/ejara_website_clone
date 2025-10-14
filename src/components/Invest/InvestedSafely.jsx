@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/InvestedSafely.css"
+import "../../styles/InvestedSafely.css";
 
 const InvestedSafely = () => {
   return (

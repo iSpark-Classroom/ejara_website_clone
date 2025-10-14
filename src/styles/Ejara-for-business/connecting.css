@@ -1,0 +1,46 @@
+.connecting {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.connecting-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px 20px 20px;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 28px;
+  margin-bottom: 100px;
+}
+.connecting-africa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+}
+.pictures {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.connecting-subimages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  padding: 50px;
+  background-color: #f7f7f7;
+  border-radius: 40px;
+}
+.connecting-subimages img {
+  border-radius: 40px;
+}
