@@ -21,6 +21,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<LandingPage />} />
+
         <Route path="/saving-box" element={<SavingBox />} />
         <Route path="/saving-project" element={<SavingProject />} />
         <Route path="/invest" element={<Invest />} />
