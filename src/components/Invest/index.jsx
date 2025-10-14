@@ -7,8 +7,8 @@ function Invest() {
   return (
     <div className="container">
       <Investment />
-      <InvestedSafely />
-      <Guaranteed />
+      {/* <InvestedSafely /> */}
+      {/* <Guaranteed /> */}
     </div>
   );
 }
