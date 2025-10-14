@@ -2,12 +2,15 @@
   display: flex;
   align-items: start;
   justify-content: center;
-  gap: 2em;
-  background-color: purple;
+  gap: 3em;
+  background-color: #6b21a8;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 5rem;
 }
 
 .seventy-six-k {
-  width: 500px;
+  width: 600px;
   padding: 5em 3em;
   display: flex;
   justify-content: space-between;
@@ -17,18 +20,30 @@
 }
 
 .download {
-  width: 15%;
+  width: 40%;
   border-radius: 10px;
   display: flex;
   gap: 1em;
+  padding-top: 6%;
+}
+
+.playstore {
+border-radius: 10px;
 }
 
 .text {
-  text-decoration-color: white;
+  color: white;
   justify-content: center;
+  padding-top: 4%;
+  
 }
 
 .invest {
   padding: 5em;
   gap: 50px;
+}
+
+.invest h2{
+  color: white;
+  padding-bottom: 20px;
 }

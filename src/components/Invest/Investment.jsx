@@ -20,6 +20,7 @@ const Investment = () => {
             />
 
             <img
+              className="playstore"
               src="public/images/Ejara-assets/invest/images/imgi_3_1200px-Google_Play_Store_badge_FR.svg.png"
               alt="Download app from Play store"
             />
