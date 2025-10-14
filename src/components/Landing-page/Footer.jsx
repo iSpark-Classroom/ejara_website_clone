@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/landing-page/footer.css"; // Importing CSS
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -14,23 +15,23 @@ const Footer = () => {
         <div className="resource">
           <h3>Resource</h3>
           <div className="resource-links">
-            <a href="#">FAQs</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Blog Posts</a>
-            <a href="#">Terms & Conditions</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Data Protection</a>
+            <Link to ="/faqs">FAQs</Link>
+            <Link to ="/contact-us">Contact Us</Link>
+            <Link to ="/blog-post">Blog Posts</Link>
+            <Link to ="/tac">Terms & Conditions</Link>
+            <Link to ="/privacy-policy">Privacy Policy</Link>
+            <Link to ="/data-protection">Data Protection</Link>
           </div>
         </div>
 
         <div className="products">
           <h3>Products</h3>
           <div className="products-links">
-            <a href="#">Ejara Wallet</a>
-            <a href="#">Savings Box</a>
-            <a href="#">Project Savings</a>
-            <a href="#">Invest</a>
-            <a href="#">Ejara for Business</a>
+            <Link to="/">Ejara Wallet</Link>
+            <Link to="/saving-box">Savings Box</Link>
+            <Link to="/saving-project">Project Savings</Link>
+            <Link to="/invest">Invest</Link>
+            <Link to="/business">Ejara for Business</Link>
           </div>
         </div>
 
