@@ -20,8 +20,7 @@ function App() {
     <BrowserRouter className="main-container">
       <Header />
       <Routes>
-        {/* <Route path="/" element={<LandingPage />} /> */}
-        <Route path="/" element={<ContactUs />} />
+        <Route path="/" element={<LandingPage />} />
 
         <Route path="/saving-box" element={<SavingBox />} />
         <Route path="/saving-project" element={<SavingProject />} />
