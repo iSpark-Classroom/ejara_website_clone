@@ -7,7 +7,7 @@ function Invest() {
   return (
     <div className="container">
       <Investment />
-      {/* <InvestedSafely /> */}
+      <InvestedSafely />
       {/* <Guaranteed /> */}
     </div>
   );

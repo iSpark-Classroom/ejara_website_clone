@@ -5,7 +5,7 @@ const InvestedSafely = () => {
   return (
     <div className="safely">
       <h1>Invested Safely</h1>
-      <p>State-gauranteed investments for your financial future</p>
+      <p>Government-gauranteed investments for your financial future</p>
     </div>
   );
 };
