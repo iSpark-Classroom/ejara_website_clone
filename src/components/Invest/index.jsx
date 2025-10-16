@@ -1,7 +1,16 @@
 import React from "react";
+import Investment from "./Investment";
+import InvestedSafely from "./InvestedSafely";
+import Guaranteed from "./Guaranteed";
 
-const Invest = () => {
-  return <div>Invest</div>;
-};
+function Invest() {
+  return (
+    <div className="container">
+      <Investment />
+      <InvestedSafely />
+      {/* <Guaranteed /> */}
+    </div>
+  );
+}
 
 export default Invest;
