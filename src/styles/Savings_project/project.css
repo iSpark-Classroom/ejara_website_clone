@@ -1,9 +1,9 @@
-.SavingProject {
+.savingsProject {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2em;
-  background-color: green;
+  background-color: #16a34a;
   color: #f1f1f1;
   margin-top: 80px;
   padding: 150px 0 0 0;
@@ -20,7 +20,7 @@
   }
 }
 
-.SavingProject .text-container {
+.savingsProject .text-container {
   /* flex: 1; */
   flex-basis: 50%;
   /* background-color: #f1fff9; */
@@ -39,7 +39,7 @@
   width: 35%;
 }
 
-.SavingProject .image-container {
+.savingsProject .image-container {
   /* flex: 1; */
   flex-basis: 40%;
   display: flex;
