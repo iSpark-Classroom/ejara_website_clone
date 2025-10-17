@@ -7,7 +7,7 @@ import Header from "./components/Landing-page/Header";
 import SavingBox from "./components/Savings/SavingBox";
 import SavingProject from "./components/Savings/SavingProject";
 import Footer from "./components/Landing-page/Footer";
-import Body from "./components/Terms-and-conditions/Body";
+import TermsAndConditions from "./components/Terms-and-conditions";
 
 function App() {
   return (
@@ -18,7 +18,8 @@ function App() {
         <Route path="/saving-box" element={<SavingBox />} />
         <Route path="/saving-project" element={<SavingProject />} />
         <Route path="/invest" element={<Invest />} />
-        <Route path="/business" element={<EjaraForBusiness />} />
+        {/* <Route path="/business" element={<EjaraForBusiness />} /> */}
+        <Route path="/business" element={<TermsAndConditions />} />
       </Routes>
       <Footer />
     </BrowserRouter>
