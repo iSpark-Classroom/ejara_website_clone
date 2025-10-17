@@ -11,7 +11,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 const TermsAndConditions = () => {
   return (
     <div>
-      TermsAndConditions <Body />
+      {/* TermsAndConditions <Body /> */}
       <PdfViewer />
     </div>
   );
