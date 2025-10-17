@@ -1,21 +1,20 @@
 {
-  "title": "Contactez nous",
-  "subtitle": "We’d love to hear from you",
-  "description": "Reach us through the following or send a message below.",
-  "addressLabel": "Address",
-  "addressValue": "123 Main Street, Cityville",
-  "emailLabel": "Email",
-  "phoneLabel": "Phone",
+  "title": "Contactez-nous",
+  "intro": "Nous comblons le fossé entre les fournisseurs de services et les utilisateurs finaux",
+  "chat with experts": "Discutez avec nos experts",
+  "whatsapp": "(whatsapp)",
+  "send_mail": "Envoyez-nous un e-mail",
+  "send_mail_intro": "Notre équipe est là pour vous aider. Envoyez un e-mail à",
+  "connect_with": "Connectez-vous avec nous sur les réseaux sociaux",
+  "supportFormTitle": "Remplissez le formulaire d'assistance client",
+  "name" : "Nom",
+  "name_placeholder": "Ex. Damilola John",
+  "email": "Address mail",
+  "email_placeholder": "Ex. Dami@gmail.com",
+  "message": "Message",
+  "message_placeholder": "Tapez votre message",
+  "submit_button": "Envoyer",
+  "social_text": "Rejoignez-nous sur les réseaux sociaux"
+  
 
-  "form": {
-    "title": "Send a Message",
-    "nameLabel": "Your Name",
-    "namePlaceholder": "Enter your full name",
-    "emailLabel": "Your Email",
-    "emailPlaceholder": "Enter your email address",
-    "messageLabel": "Your Message",
-    "messagePlaceholder": "Type your message here...",
-    "submitButton": "Send",
-    "successMessage": "Your message has been sent!"
-  }
 }
