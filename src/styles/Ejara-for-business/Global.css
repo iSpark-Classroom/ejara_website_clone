@@ -95,6 +95,8 @@
 @media (max-width: 400px) {
   .global-images {
     grid-template-columns: 1fr;
+    justify-items: start;
+    justify-content: start;
   }
 
   .button {
