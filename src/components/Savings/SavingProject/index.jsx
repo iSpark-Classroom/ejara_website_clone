@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import SectionTwo from "../Savings_project";
 
 const SavingProject = () => {
   return (
-    <div>SavingProject</div>
-  )
-}
+    <div>
+      <SectionTwo />
+    </div>
+  );
+};
 
-export default SavingProject
+export default SavingProject;
