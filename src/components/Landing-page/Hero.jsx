@@ -1,13 +1,13 @@
 import React from "react";
 import "../../styles/landing-page/hero-section.css"; // Importing CSS
 
-const Hero = () => {
+const Hero = ({t}) => {
   return (
     <div className="hero-container">
       {/* Start of main text; heading, paragraph and download links */}
       <div className="hero-text">
-        <h1>Your financial companion</h1>
-        <p>Where every transaction counts: Invest, save and pay with Ejara</p>
+        <h1>{t("title_your_financial_companion")}</h1>
+        <p>{t("intro_where_every")}</p>
 
         {/* Download button links; both google playstore and app store for iPhones */}
         <div className="download-app">

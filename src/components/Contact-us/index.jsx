@@ -9,7 +9,6 @@ import '../../styles/contact-us/Info.css'
 const ContactUs = () => {
 
   const {t} = useTranslation("contactUs")
-  console.log("T is =>",t);
   
   return (
     <section className="contactus-container">

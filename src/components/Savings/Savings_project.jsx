@@ -22,7 +22,7 @@ function SectionTwo() {
         </div>
 
         <div className="image-container">
-          <img src="/images/Ejara-assets/savings/phone_p.png" alt="phone" />
+          <img src="/images/Ejara-assets/savings/phone_p.png" alt="phone_p" />
         </div>
       </div>
       <section className="process-section">
@@ -33,7 +33,10 @@ function SectionTwo() {
         <div className="img-card-section">
           <div className="img-card">
             <div className="image-wrapper">
-              <img src="/images/Ejara-assets/savings/phn_box.png" alt="" />
+              <img
+                src="/images/Ejara-assets/savings/phn_box.png"
+                alt="phn_box"
+              />
             </div>
             <div className="text">
               <h3>Secure & Rewarded Growth</h3>
@@ -45,7 +48,7 @@ function SectionTwo() {
           </div>
           <div className="img-card">
             <div className="image-wrapper">
-              <img src="/images/Ejara-assets/savings/page.png" alt="" />
+              <img src="/images/Ejara-assets/savings/page.png" alt="page" />
             </div>
             <div className="text">
               <h3>Flexible Savings Options</h3>
@@ -57,7 +60,7 @@ function SectionTwo() {
             </div>
           </div>
           <div className="img-card">
-            <img src="/images/Ejara-assets/savings/.phone.png" alt="" />
+            <img src="/images/Ejara-assets/savings/phone.png" alt="phone" />
           </div>
           <div className="text">
             <h3>Progress Tracking</h3>
