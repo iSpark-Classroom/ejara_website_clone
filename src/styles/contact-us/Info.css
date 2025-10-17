@@ -1,4 +1,34 @@
-.phones{
+
+.contact{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3em;
+    background-color: rgb(245, 245, 245);
+}
+
+.contact *{
+    padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contact h2{
+    font-size: 1.5rem;
+}
+
+
+.social{
+    width: 30px;
+    height: 30px;
+    border-radius: 100rem;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: left;
     flex-direction: row;
+
 }

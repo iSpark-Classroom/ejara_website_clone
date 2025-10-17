@@ -1,21 +1,19 @@
 {
   "title": "Contact Us",
-  "subtitle": "We’d love to hear from you",
-  "description": "Reach us through the following or send a message below.",
-  "addressLabel": "Address",
-  "addressValue": "123 Main Street, Cityville",
-  "emailLabel": "Email",
-  "phoneLabel": "Phone",
-
-  "form": {
-    "title": "Send a Message",
-    "nameLabel": "Your Name",
-    "namePlaceholder": "Enter your full name",
-    "emailLabel": "Your Email",
-    "emailPlaceholder": "Enter your email address",
-    "messageLabel": "Your Message",
-    "messagePlaceholder": "Type your message here...",
-    "submitButton": "Send",
-    "successMessage": "Your message has been sent!"
-  }
+  "intro": "we are bridging the gap between service providers and end users",
+  "chat with experts": "Chat with our Experts",
+  "whatsapp": "(whatsapp)",
+  "send_mail": "Send us a mail",
+  "send_mail_intro": "Our friendly team is here to help you. Send a mail to",
+  "connect_with": "Connect with us on Social media",
+  "supportFormTitle": "Fill the customer support form",
+  "name": "Name",
+  "name_placeholder": "E.g. Damilola John",
+  "email": "Email address",
+  "email_placeholder": "E.g. Dami@gmail.com",
+  "message": "Message",
+  "message_placeholder": "Type your message",
+  "submit_button": "Submit",
+  "social_text": "Connect with us on social media"
+  
 }
