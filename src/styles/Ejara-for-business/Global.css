@@ -45,3 +45,62 @@
 .global-p p {
   font-size: 20px;
 }
+
+/* Tablets 992px and belwo */
+@media (max-width: 992px) {
+  .global {
+    padding: 60px 40px;
+    gap: 50px;
+  }
+
+  .global-images {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .global-p p {
+    font-size: 18px;
+  }
+}
+
+/* Mobile 600px and below */
+@media (max-width: 600px) {
+  .global {
+    padding: 40px 20px;
+    gap: 40px;
+  }
+
+  .global-images {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .button {
+    width: 160px;
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .button img {
+    height: 20px;
+    width: 26px;
+  }
+
+  .global-p p {
+    font-size: 16px;
+  }
+}
+
+/*  very small screens  400px and below */
+@media (max-width: 400px) {
+  .global-images {
+    grid-template-columns: 1fr;
+    justify-items: start;
+    justify-content: start;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 220px;
+  }
+}

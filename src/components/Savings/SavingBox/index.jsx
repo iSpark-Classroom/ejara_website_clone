@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import SectionOne from "../saving_box";
 
-const SavingBox = () => {
+const savingBox = () => {
   return (
-    <div>SavingBox</div>
-  )
-}
+    <div>
+      <SectionOne />
+    </div>
+  );
+};
 
-export default SavingBox
+export default savingBox;
