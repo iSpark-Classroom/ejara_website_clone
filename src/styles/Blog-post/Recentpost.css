@@ -1,0 +1,27 @@
+.stutext {  
+  display:flex;
+  gap: 2em;
+  margin-top: 1em;
+  justify-content: center;
+  align-items: flex-start ;
+
+  
+ 
+ 
+}
+
+.student {
+ width: 5000px;
+}
+
+.text {
+    display: flex;
+    padding: 5em 3em;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: 20px;
+    float: right;
+    font-size: 1.2rem;
+    padding: 4%;
+
+}
