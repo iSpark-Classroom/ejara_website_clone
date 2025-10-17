@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../../styles/landing-page/header.css"; // Importing CSS
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import LanguageSelector from "../language-selector";
 
 const Header = () => {
@@ -77,7 +77,7 @@ const Header = () => {
           </li>
         </ul>
 
-        <LanguageSelector/>
+        <LanguageSelector />
 
         <ul>
           <li className="region-menu-item">
