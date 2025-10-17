@@ -2,7 +2,7 @@ import "./styles/App.css";
 import LandingPage from "./components/Landing-page";
 import Invest from "./components/Invest";
 import EjaraForBusiness from "./components/Ejara-for-business";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Landing-page/Header";
 import SavingBox from "./components/Savings/SavingBox";
 import SavingProject from "./components/Savings/SavingProject";
@@ -17,7 +17,7 @@ import BlogPost from "./components/Blog-post";
 
 function App() {
   return (
-    <BrowserRouter className="main-container">
+    <div className="main-container">
       <Header />
       <Routes>
         <Route path="/" element={<LandingPage />} />
@@ -33,7 +33,7 @@ function App() {
         <Route path="/faqs" element={<Faqs />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </div>
   );
 }
 
