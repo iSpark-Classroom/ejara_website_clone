@@ -1,12 +1,12 @@
-// import i18n from "i18next";
-// import LanguageDetector from "i18next-browser-languagedetector";
-// import { initReactI18next } from "react-i18next";
+import i18n from "i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
+import { initReactI18next } from "react-i18next";
 
 // // ContactUs
-// import enContactUs from "../locales/en/contactUs.json";
-// import frContactUs from "../locales/fr/contactUs.json";
+import enContactUs from "../locales/en/contactUs.json";
+import frContactUs from "../locales/fr/contactUs.json";
 
-// LandingPage
+// // LandingPage
 import enLandingPage from '../locales/en/landingPage.json'
 import frLandingPage from '../locales/fr/landingPage.json'
 
@@ -44,4 +44,4 @@ i18n
     },
   });
 
-// export default i18n;
+export default i18n;
