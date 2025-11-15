@@ -15,13 +15,13 @@ const Investment = () => {
 
           <div className="download">
             <img
-              src="public/images/Ejara-assets/invest/images/imgi_2_2560px-Download_on_the_App_Store_Badge_blk.svg.png"
+              src="/images/Ejara-assets/invest/images/imgi_2_2560px-Download_on_the_App_Store_Badge_blk.svg.png"
               alt="Download app from App store"
             />
 
             <img
               className="playstore"
-              src="public/images/Ejara-assets/invest/images/imgi_3_1200px-Google_Play_Store_badge_FR.svg.png"
+              src="/images/Ejara-assets/invest/images/imgi_3_1200px-Google_Play_Store_badge_FR.svg.png"
               alt="Download app from Play store"
             />
           </div>
@@ -32,7 +32,7 @@ const Investment = () => {
       <div className="background-color">
         <div className="seventy-six-k">
           <img
-            src="public/images/Ejara-assets/invest/images/imgi_4_Rectangle.png"
+            src="/images/Ejara-assets/invest/images/imgi_4_Rectangle.png"
             alt="76,500"
           />
         </div>
