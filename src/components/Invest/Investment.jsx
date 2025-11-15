@@ -4,7 +4,7 @@ import "../../styles/Investment.css";
 const Investment = () => {
   return (
     <section className="investment">
-      <div className="text">
+      {/* <div className="text"> */}
         <div className="invest">
           <h2>Investment</h2>
           <p>
@@ -26,17 +26,17 @@ const Investment = () => {
             />
           </div>
         </div>
-      </div>
+      {/* </div> */}
 
       {/* {container for image} */}
-      <div className="background-color">
-        <div className="seventy-six-k">
-          <img
-            src="/images/Ejara-assets/invest/images/imgi_4_Rectangle.png"
-            alt="76,500"
-          />
-        </div>
+      {/* <div className="background-color"> */}
+      <div className="seventy-six-k">
+        <img
+          src="/images/Ejara-assets/invest/images/imgi_4_Rectangle.png"
+          alt="76,500"
+        />
       </div>
+      {/* </div> */}
     </section>
   );
 };
