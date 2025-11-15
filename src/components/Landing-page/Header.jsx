@@ -4,9 +4,90 @@ import "../../styles/landing-page/header.css"; // Importing CSS
 import { Link } from "react-router-dom";
 import LanguageSelector from "../language-selector";
 
+export const SaveMenu = () => {
+  return (
+    <ul className="save-sub-menu-items save-for-mobile">
+      <li>
+        <Link className="sub-menu-item" to="/saving-box">
+          <div className="icon-container">
+            <img
+              src="images/Ejara-assets/landingPage_images/download (2).svg"
+              alt="savings icon"
+            />
+          </div>
+          <div className="sub-menu-detail">
+            <h4>Savings Box</h4>
+            <p>Saving for Emergencies</p>
+          </div>
+        </Link>
+      </li>
+      <li>
+        <Link className="sub-menu-item" to="/saving-project">
+          <div className="icon-container">
+            <img
+              src="images/Ejara-assets/landingPage_images/download (1).svg"
+              alt="goal icon"
+            />
+          </div>
+          <div className="sub-menu-detail">
+            <h4>Project Savings</h4>
+            <p>Save for your projects</p>
+          </div>
+        </Link>
+      </li>
+    </ul>
+  );
+};
+
+export const InvestMenu = () => {
+  return (
+    <ul className="invest-sub-menu-items invest-for-mobile">
+      <li>
+        <Link className="sub-menu-item" to="/invest">
+          <div className="icon-container">
+            <img
+              src="images/Ejara-assets/landingPage_images/download.svg"
+              alt="wallet icon"
+            />
+          </div>
+          <div className="sub-menu-detail">
+            <h4>Investment</h4>
+            <p>Earn up to 6.5% annual interest</p>
+          </div>
+        </Link>
+      </li>
+    </ul>
+  );
+};
+
+export const RegionsMenu = () => {
+  return (
+    <ul className="region-sub-menu-items region-for-mobile">
+      <li className="sub-menu-item">
+        <a href="#">Africa</a>
+      </li>
+      <li className="sub-menu-item">
+        <a href="#">Europe</a>
+      </li>
+      <li className="sub-menu-item">
+        <a href="#">Americas</a>
+      </li>
+      <li className="sub-menu-item">
+        <a href="#">Asia</a>
+      </li>
+      <li className="sub-menu-item">
+        <a href="#">Oceania</a>
+      </li>
+    </ul>
+  );
+};
+
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [menuImage, setMenuImage] = useState(true);
+  const [accordion, setAccordion] = useState(false);
+  const [saveAccordion, setSaveAccordion] = useState(false);
+  const [investAccordion, setInvestAccordion] = useState(false);
 
   return (
     <header className="header">
@@ -22,55 +103,11 @@ const Header = () => {
         <ul className="nav-menu">
           <li className="save-menu-item">
             Save
-            <ul className="save-sub-menu-items">
-              <li>
-                <Link className="sub-menu-item" to="/saving-box">
-                  <div className="icon-container">
-                    <img
-                      src="images/Ejara-assets/landingPage_images/download (2).svg"
-                      alt="savings icon"
-                    />
-                  </div>
-                  <div className="sub-menu-detail">
-                    <h4>Savings Box</h4>
-                    <p>Saving for Emergencies</p>
-                  </div>
-                </Link>
-              </li>
-              <li>
-                <Link className="sub-menu-item" to="/saving-project">
-                  <div className="icon-container">
-                    <img
-                      src="images/Ejara-assets/landingPage_images/download (1).svg"
-                      alt="goal icon"
-                    />
-                  </div>
-                  <div className="sub-menu-detail">
-                    <h4>Project Savings</h4>
-                    <p>Save for your projects</p>
-                  </div>
-                </Link>
-              </li>
-            </ul>
+            <SaveMenu />
           </li>
           <li className="invest-menu-item">
             Invest
-            <ul className="invest-sub-menu-items">
-              <li>
-                <Link className="sub-menu-item" to="/invest">
-                  <div className="icon-container">
-                    <img
-                      src="images/Ejara-assets/landingPage_images/download.svg"
-                      alt="wallet icon"
-                    />
-                  </div>
-                  <div className="sub-menu-detail">
-                    <h4>Investment</h4>
-                    <p>Earn up to 6.5% annual interest</p>
-                  </div>
-                </Link>
-              </li>
-            </ul>
+            <InvestMenu />
           </li>
           <li>
             <Link to="/business">Ejara for Business</Link>
@@ -87,23 +124,7 @@ const Header = () => {
               alt="Region icon"
             />
             <p>Africa</p>
-            <ul className="region-sub-menu-items">
-              <li className="sub-menu-item">
-                <a href="#">Africa</a>
-              </li>
-              <li className="sub-menu-item">
-                <a href="#">Europe</a>
-              </li>
-              <li className="sub-menu-item">
-                <a href="#">Americas</a>
-              </li>
-              <li className="sub-menu-item">
-                <a href="#">Asia</a>
-              </li>
-              <li className="sub-menu-item">
-                <a href="#">Oceania</a>
-              </li>
-            </ul>
+            <RegionsMenu />
           </li>
         </ul>
 
@@ -122,90 +143,75 @@ const Header = () => {
         />
 
         <div className={toggleMenu ? "toggle-on" : "toggle-off"}>
-          <ul>
+          <ul className="mobile-width">
             <li className="mobile-region-menu-item">
-              <div className="mobile-region">
-                <img
-                  className="globe-icon"
-                  src="images/Ejara-assets/landingPage_images/download (5).svg"
-                  alt="Region icon"
-                />
-                <p>Africa</p>
+              <div className="accordion">
+                <div className="mobile-region">
+                  <img
+                    className="globe-icon"
+                    src="images/Ejara-assets/landingPage_images/download (5).svg"
+                    alt="Region icon"
+                  />
+                  Africa
+                </div>
+                <div onClick={() => setAccordion(!accordion)}>
+                  {accordion ? (
+                    <img
+                      src="images/Ejara-assets/landingPage_images/keyboard_arrow_up.png"
+                      alt=""
+                    />
+                  ) : (
+                    <img
+                      src="images/Ejara-assets/landingPage_images/keyboard_arrow_down.png"
+                      alt=""
+                    />
+                  )}
+                </div>
               </div>
-              <ul className="mobile-region-sub-menu-items">
-                <li className="mobile-sub-menu-item">
-                  <a href="#">Africa</a>
-                </li>
-                <li className="mobile-sub-menu-item">
-                  <a href="#">Europe</a>
-                </li>
-                <li className="mobile-sub-menu-item">
-                  <a href="#">Americas</a>
-                </li>
-                <li className="mobile-sub-menu-item">
-                  <a href="#">Asia</a>
-                </li>
-                <li className="mobile-sub-menu-item">
-                  <a href="#">Oceania</a>
-                </li>
-              </ul>
+              {accordion && <RegionsMenu />}
             </li>
           </ul>
 
-          <ul className="mobile-nav-menu">
+          <ul className="mobile-nav-menu mobile-width">
             <li className="mobile-save-menu-item">
-              Save
-              <ul className="mobile-save-sub-menu-items">
-                <li>
-                  <a className="mobile-sub-menu-item" href="#">
-                    <div className="mobile-icon-container">
-                      <img
-                        src="images/Ejara-assets/landingPage_images/download (2).svg"
-                        alt="savings icon"
-                      />
-                    </div>
-                    <div className="mobile-sub-menu-detail">
-                      <h4>Savings Box</h4>
-                      <p>Saving for Emergencies</p>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a className="mobile-sub-menu-item" href="#">
-                    <div className="mobile-icon-container">
-                      <img
-                        src="images/Ejara-assets/landingPage_images/download (1).svg"
-                        alt="goal icon"
-                      />
-                    </div>
-                    <div className="mobile-sub-menu-detail">
-                      <h4>Project Savings</h4>
-                      <p>Save for your projects</p>
-                    </div>
-                  </a>
-                </li>
-              </ul>
+              <div className="accordion">
+                Save
+                <div onClick={() => setSaveAccordion(!saveAccordion)}>
+                  {accordion ? (
+                    <img
+                      src="images/Ejara-assets/landingPage_images/keyboard_arrow_up.png"
+                      alt=""
+                    />
+                  ) : (
+                    <img
+                      src="images/Ejara-assets/landingPage_images/keyboard_arrow_down.png"
+                      alt=""
+                    />
+                  )}
+                </div>
+              </div>
+              {saveAccordion && <SaveMenu />}
             </li>
             <li className="mobile-invest-menu-item">
-              Invest
-              <ul className="mobile-invest-sub-menu-items">
-                <li>
-                  <a className="mobile-sub-menu-item" href="#">
-                    <div className="mobile-icon-container">
-                      <img
-                        src="images/Ejara-assets/landingPage_images/download.svg"
-                        alt="wallet icon"
-                      />
-                    </div>
-                    <div className="mobile-sub-menu-detail">
-                      <h4>Investment</h4>
-                      <p>Earn up to 6.5% annual interest</p>
-                    </div>
-                  </a>
-                </li>
-              </ul>
+              <div className="accordion">
+                Invest
+                <div onClick={() => setInvestAccordion(!investAccordion)}>
+                  {accordion ? (
+                    <img
+                      src="images/Ejara-assets/landingPage_images/keyboard_arrow_up.png"
+                      alt=""
+                    />
+                  ) : (
+                    <img
+                      src="images/Ejara-assets/landingPage_images/keyboard_arrow_down.png"
+                      alt=""
+                    />
+                  )}
+                </div>
+              </div>
+              {investAccordion && <InvestMenu />}
             </li>
-            <li>
+            <li className="ejara-for-business-link">
               <a href="#">Ejara for Business</a>
             </li>
           </ul>
