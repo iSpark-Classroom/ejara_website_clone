@@ -1,13 +1,13 @@
-import React from 'react'
-import "../../styles/Blog-post/SaaS.css"
+import React from "react";
+import "../../styles/Blog-post/SaaS.css";
 
-const SaaS = () =>  {
+const SaaS = () => {
   return (
     <section className="product">
       <div className="money">
         <div className="image-container">
           <img
-            src="public/images/Ejara-assets/images_blogpost/money-2168003_1920.jpg"
+            src="/images/Ejara-assets/images_blogpost/money-2168003_1920.jpg"
             alt="money(usd)"
           />
         </div>
@@ -23,7 +23,7 @@ const SaaS = () =>  {
       <div className="boy">
         <div className="image-container">
           <img
-            src="public/images/Ejara-assets/images_blogpost/laptop-2561505_1920.jpg "
+            src="/images/Ejara-assets/images_blogpost/laptop-2561505_1920.jpg "
             alt="a boy using his laptop"
           />
         </div>
@@ -55,6 +55,6 @@ const SaaS = () =>  {
       </div>
     </section>
   );
-}
+};
 
-export default SaaS 
+export default SaaS;
