@@ -9,11 +9,23 @@ export const SaveMenu = () => {
     <ul className="save-sub-menu-items save-for-mobile">
       <li>
         <Link className="sub-menu-item" to="/saving-box">
-          <div className="icon-container">
-            <img
-              src="images/Ejara-assets/landingPage_images/download (2).svg"
-              alt="savings icon"
-            />
+          <div className="icon-container pig">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-piggy-bank w-6 h-6 text-primary-600"
+            >
+              <path d="M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2h0V5z"></path>
+              <path d="M2 9v1c0 1.1.9 2 2 2h1"></path>
+              <path d="M16 11h0"></path>
+            </svg>
           </div>
           <div className="sub-menu-detail">
             <h4>Savings Box</h4>
@@ -23,11 +35,23 @@ export const SaveMenu = () => {
       </li>
       <li>
         <Link className="sub-menu-item" to="/saving-project">
-          <div className="icon-container">
-            <img
-              src="images/Ejara-assets/landingPage_images/download (1).svg"
-              alt="goal icon"
-            />
+          <div className="icon-container target">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-target w-6 h-6 text-green-600"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <circle cx="12" cy="12" r="6"></circle>
+              <circle cx="12" cy="12" r="2"></circle>
+            </svg>
           </div>
           <div className="sub-menu-detail">
             <h4>Project Savings</h4>
@@ -44,11 +68,23 @@ export const InvestMenu = () => {
     <ul className="invest-sub-menu-items invest-for-mobile">
       <li>
         <Link className="sub-menu-item" to="/invest">
-          <div className="icon-container">
-            <img
-              src="images/Ejara-assets/landingPage_images/download.svg"
-              alt="wallet icon"
-            />
+          <div className="icon-container wallet">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-wallet w-6 h-6 text-purple-600"
+            >
+              <path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"></path>
+              <path d="M3 5v14a2 2 0 0 0 2 2h16v-5"></path>
+              <path d="M18 12a2 2 0 0 0 0 4h4v-4Z"></path>
+            </svg>
           </div>
           <div className="sub-menu-detail">
             <h4>Investment</h4>
