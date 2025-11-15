@@ -11,10 +11,9 @@ const Recentpost = () => {
           src="/images/Ejara-assets/images_blogpost/student-849821_1920.jpg"
           alt="A lady using her laptop"
         />
-      </div> 
+      </div>
 
-
-    {/* {container for text} */}
+      {/* {container for text} */}
       <div className="text">
         <h2>How remote work drastically improved my design skills </h2>
         <p>

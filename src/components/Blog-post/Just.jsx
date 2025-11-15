@@ -7,7 +7,7 @@ const Just = () => {
       <div className="children">
         <div className="image-container">
           <img
-            src="public/images/Ejara-assets/images_blogpost/children-593313_1920.jpg"
+            src="/images/Ejara-assets/images_blogpost/children-593313_1920.jpg"
             alt="children using a pc"
           />
         </div>
@@ -23,7 +23,7 @@ const Just = () => {
       <div className="discuss">
         <div className="image-container">
           <img
-            src=" public/images/Ejara-assets/images_blogpost/job-5382501_1920.jpg "
+            src="/images/Ejara-assets/images_blogpost/job-5382501_1920.jpg "
             alt="People with their laptops discussing"
           />
         </div>
@@ -39,11 +39,11 @@ const Just = () => {
       <div className="meeting">
         <div className="image-container">
           <img
-            src="public/images/Ejara-assets/images_blogpost/meeting-594091_1920.jpg"
+            src="/images/Ejara-assets/images_blogpost/meeting-594091_1920.jpg"
             alt="A meeting"
           />
         </div>
-      <h2>Our Saas product just launched</h2>
+        <h2>Our Saas product just launched</h2>
       </div>
       <div>
         <p>
