@@ -7,7 +7,7 @@ const Guaranteed = () => {
       <div className="capital">
         <div className="image-container">
           <img
-            src="public/images/Ejara-assets/invest/images/imgi_5_67f68d0955b6e582eadd342b_Bank_of_Central_African_States_logo.svg.png"
+            src="/images/Ejara-assets/invest/images/imgi_5_67f68d0955b6e582eadd342b_Bank_of_Central_African_States_logo.svg.png"
             alt="A picture of Antelopes"
           />
         </div>
@@ -23,7 +23,7 @@ const Guaranteed = () => {
       <div className="ota-cameroon">
         <div className="image-container">
           <img
-            src="public/images/Ejara-assets/invest/images/imgi_6_67f68d08a3a917592890e34c_Screenshot 2025-04-09 at 4.57.18 PM.png"
+            src="/images/Ejara-assets/invest/images/imgi_6_67f68d08a3a917592890e34c_Screenshot 2025-04-09 at 4.57.18 PM.png"
             alt="A small picture of the cameroon flag and a text under"
           />
         </div>
@@ -40,7 +40,7 @@ const Guaranteed = () => {
       <div className="accessible">
         <div className="image-container">
           <img
-            src="public/images/Ejara-assets/invest/images/imgi_7_67f68e53347391895e2b727f_illustration.png"
+            src="/images/Ejara-assets/invest/images/imgi_7_67f68e53347391895e2b727f_illustration.png"
             alt="A hand holding some buildings and another hand on top"
           />
         </div>
