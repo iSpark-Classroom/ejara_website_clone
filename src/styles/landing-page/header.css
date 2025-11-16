@@ -80,6 +80,7 @@
   background-color: rgb(255, 255, 255);
   padding: 8px;
   border-radius: 4px;
+  max-height: 64px;
 }
 
 .sub-menu-item:hover {
@@ -94,13 +95,33 @@
 }
 
 .icon-container {
-  width: 40px;
+  width: 40px !important;
   height: 40px;
-  background-color: aquamarine;
+  background-color: #ecf8fe;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+}
+
+.icon-container > svg {
+  stroke: #0584d8;
+}
+
+.icon-container.target {
+  background-color: #dcfce7;
+}
+
+.icon-container.target > svg {
+  stroke: #16a34a;
+}
+
+.icon-container.wallet {
+  background-color: #f3e8ff;
+}
+
+.icon-container.wallet > svg {
+  stroke: #9333ea;
 }
 
 .globe-icon {
@@ -164,7 +185,7 @@
 
 /* table screen size  */
 
-@media (max-width: 620px) {
+@media (max-width: 750px) {
   .nav-menu,
   .region-menu-item {
     display: none;
@@ -324,6 +345,14 @@
 
   .region-for-mobile > .sub-menu-item > a {
     padding-left: 2rem;
+  }
+
+  .sub-menu-item {
+    background-color: transparent;
+  }
+
+  .sub-menu-item:hover {
+    background-color: #f8f2ff;
   }
 }
 
