@@ -248,7 +248,7 @@ const Header = () => {
               {investAccordion && <InvestMenu />}
             </li>
             <li className="ejara-for-business-link">
-              <a href="#">Ejara for Business</a>
+              <Link to="/business">Ejara for Business</Link>
             </li>
           </ul>
         </div>

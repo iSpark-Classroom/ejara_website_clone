@@ -185,7 +185,7 @@
 
 /* table screen size  */
 
-@media (max-width: 620px) {
+@media (max-width: 750px) {
   .nav-menu,
   .region-menu-item {
     display: none;
