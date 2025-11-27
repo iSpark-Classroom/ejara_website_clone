@@ -4,7 +4,6 @@ import "../../styles/Investment.css";
 const Investment = () => {
   return (
     <section className="investment">
-      {/* <div className="text"> */}
       <div className="invest w-[45%]">
         <h1 className="font-black">Investment</h1>
         <p>
@@ -26,7 +25,7 @@ const Investment = () => {
           />
           {/* </div> */}
         </div>
-      {/* </div> */}
+      </div>
 
       {/* {container for image} */}
       <div className="background-color w-[45%]">
