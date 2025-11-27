@@ -1,77 +1,75 @@
 .business {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url(/src/assets/business.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-top: 75px;
-  height: 500px; 
-  max-width: 100vw;
-  gap: 28px;
-  font-family: system-ui sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/src/assets/business.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 65px;
+    height: 500px;
+    max-width: 100vw;
+    gap: 28px;
+    font-family: system-ui sans-serif;
 }
+
 .business h1 {
-  color: RGB(255, 255, 255);
-  font-size: 60px;
+    color: RGB(255, 255, 255);
+    font-size: 60px;
 }
 
 .business p {
-  color: RGB(255, 255, 255);
-  font-size: 20px;
+    color: RGB(255, 255, 255);
+    font-size: 20px;
 }
+
 .business button {
-  height: 62px;
-  width: 250px;
-  color: #2563eb;
-  background-color: #eff6ff;
-  font-size: 18px;
-  border-radius: 40px;
+    height: 62px;
+    width: 250px;
+    color: #2563eb;
+    background-color: #eff6ff;
+    font-size: 18px;
+    border-radius: 40px;
 }
 
 @media (max-width: 768px) {
-  .business {
-    height: auto;
-    padding: 60px 20px;
-  }
-
-  .business h1 {
-    font-size: 45px;
-  }
-
-  .business p {
-    font-size: 18px;
-  }
-
-  .business button {
-    width: 220px;
-    height: 55px;
-    font-size: 16px;
-  }
+    .business {
+        height: auto;
+        padding: 60px 20px;
+    }
+    .business h1 {
+        font-size: 45px;
+    }
+    .business p {
+        font-size: 18px;
+    }
+    .business button {
+        width: 220px;
+        height: 55px;
+        font-size: 16px;
+    }
 }
 
+
 /* Mobile phones (480px and below) */
+
 @media (max-width: 480px) {
-  .business {
-    height: auto;
-    padding: 40px 15px;
-    gap: 20px;
-  }
-
-  .business h1 {
-    font-size: 32px;
-    line-height: 1.2;
-  }
-
-  .business p {
-    font-size: 14px;
-  }
-
-  .business button {
-    width: 200px;
-    height: 50px;
-    font-size: 15px;
-  }
+    .business {
+        height: auto;
+        padding: 40px 15px;
+        gap: 20px;
+    }
+    .business h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .business p {
+        font-size: 14px;
+    }
+    .business button {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+    }
 }
