@@ -31,6 +31,7 @@ function App() {
         <Route path="/data-protection" element={<DataProtection />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/faqs" element={<Faqs />} />
+        <Route path="/blog-post" element={<BlogPost />} />
       </Routes>
       <Footer />
     </div>
