@@ -213,7 +213,7 @@ const Header = () => {
               <div className="accordion">
                 Save
                 <div onClick={() => setSaveAccordion(!saveAccordion)}>
-                  {accordion ? (
+                  {saveAccordion ? (
                     <img
                       src="images/Ejara-assets/landingPage_images/keyboard_arrow_up.png"
                       alt=""
@@ -232,7 +232,7 @@ const Header = () => {
               <div className="accordion">
                 Invest
                 <div onClick={() => setInvestAccordion(!investAccordion)}>
-                  {accordion ? (
+                  {investAccordion ? (
                     <img
                       src="images/Ejara-assets/landingPage_images/keyboard_arrow_up.png"
                       alt=""
