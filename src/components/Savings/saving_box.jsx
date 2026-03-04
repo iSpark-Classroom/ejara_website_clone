@@ -5,7 +5,7 @@ function SectionOne() {
     <>
       <div className="savingsBox">
         <div className="text-container">
-          <h1>savings box</h1>
+          <h1>Savings box</h1>
           <p>
             The Savings Box helps you effortlessly save for emergencies while
             earning a 2% annual interest rate. Backed by government bonds, it
