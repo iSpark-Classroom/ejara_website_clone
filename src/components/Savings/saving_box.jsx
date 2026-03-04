@@ -28,21 +28,27 @@ function SectionOne() {
       </div>
       <section className="process-section">
         <div className="title">
-          <h1>Savings without constraints</h1>
-          <p>Save without the stress of emergencies</p>
+          <h1 style={{ color: "black" }}>Savings without constraints</h1>
+          {<p>Save without the stress of emergencies</p>}
         </div>
 
         <div className="img-card-section">
           <div className="img-card">
             <div className="image-wrapper">
-              <img src="/images/Ejara-assets/savings/phone.png" alt="" />
+              <img
+                src="/images/Ejara-assets/savings/Savings-Box-Images/coin.png"
+                alt=""
+              />
             </div>
             <h3>Simple & Flexible Savings</h3>
             <p>Start with just 500 FCFA and save at your own pace.</p>
           </div>
           <div className="img-card">
             <div className="image-wrapper">
-              <img src="/images/Ejara-assets/savings/phone.png" alt="" />
+              <img
+                src="/images/Ejara-assets/savings/Savings-Box-Images/phone.png"
+                alt=""
+              />
             </div>
             <h3>Win by Saving</h3>
             <p>
@@ -52,7 +58,10 @@ function SectionOne() {
           </div>
           <div className="img-card">
             <div className="image-wrapper">
-              <img src="/images/Ejara-assets/savings/phone.png" alt="" />
+              <img
+                src="/images/Ejara-assets/savings/Savings-Box-Images/phone.png"
+                alt=""
+              />
             </div>
             <h3>Quarterly Withdrawals</h3>
             <p>

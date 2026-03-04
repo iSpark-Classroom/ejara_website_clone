@@ -16,6 +16,13 @@
     margin-bottom: 0px;
 }
 
+.savingsBox .title h1 {
+    font-size: 3.3rem;
+    width: fit-content;
+    margin-bottom: 0px;
+    color: #000;
+}
+
 .savingsBox p {
     font-size: 1.3rem;
     max-width: 600px;
@@ -36,7 +43,6 @@
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    padding: auto;
     height: auto;
     width: 35%;
 }

@@ -6,8 +6,7 @@ const section1 = {
   heading: "Savings box",
   paragraph:
     "Easily save for emergencies while earning a 2% annual interest rate. Backed by government bonds, it guarantees security, flexibility, and easy access to your funds. Download the app to start saving.",
-  imageSource:
-    "images/Ejara-assets/landingPage_images/imgi_6_67f5a2e015a9b3f0b6027e78_Rectangle-1.png",
+  imageSource: "images/Ejara-assets/landingPage_images/savings-box.png",
   urlImage: "images/Ejara-assets/landingPage_images/download (3).svg",
   urlLink: "https://ejara.io/savings-box",
 };
@@ -17,8 +16,7 @@ const section2 = {
   heading: "Project savings",
   paragraph:
     "Make your dreams come true with Goal Savings. Whether you're planning for the next school year or a travel project, we're here to help. Download the app now to create a goal.",
-  imageSource:
-    "images/Ejara-assets/landingPage_images/imgi_7_67f5a2e0753c0e0d34860ecd_Rectangle-2.png",
+  imageSource: "images/Ejara-assets/landingPage_images/project.png",
   urlImage: "images/Ejara-assets/landingPage_images/download (3).svg",
   urlLink: "https://ejara.io/epargne-projet",
 };
@@ -28,8 +26,7 @@ const section3 = {
   heading: "Investment",
   paragraph:
     "Invest like professionals in government bonds from 1000 CFA francs and earn up to 6.5% annual interest. The capital is guaranteed by the Bank of Central African States (BEAC).",
-  imageSource:
-    "images/Ejara-assets/landingPage_images/imgi_8_67f5a2e0484523d4f3e3e2f1_Rectangle.png",
+  imageSource: "images/Ejara-assets/landingPage_images/invest.png",
   urlImage: "images/Ejara-assets/landingPage_images/download (3).svg",
   urlLink: "https://ejara.io/investissement",
 };
