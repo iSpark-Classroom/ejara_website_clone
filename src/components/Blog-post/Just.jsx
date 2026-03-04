@@ -44,12 +44,12 @@ const Just = () => {
           />
         </div>
         <h2>Our Saas product just launched</h2>
-      </div>
-      <div>
-        <p>
-          Remote work has massively improved my design skills by giving me
-          freedom to experiment, focus and learn at my own pace.
-        </p>
+        <div>
+          <p>
+            Remote work has massively improved my design skills by giving me
+            freedom to experiment, focus and learn at my own pace.
+          </p>
+        </div>
       </div>
     </section>
   );

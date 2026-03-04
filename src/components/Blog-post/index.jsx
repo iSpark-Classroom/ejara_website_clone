@@ -8,7 +8,14 @@ import SignUp from "./SignUp";
 
 const BlogPost = () => {
   return (
-    <div>
+    <div
+      className="blog-post"
+      style={{
+        backgroundColor: "#F5F5F5",
+        padding: "50px 0",
+        marginTop: "50px",
+      }}
+    >
       <Catchup />
       <Recentpost />
       <Week />

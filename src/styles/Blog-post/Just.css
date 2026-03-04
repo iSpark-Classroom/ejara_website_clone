@@ -5,21 +5,20 @@
     margin-bottom: 6%;
 }
 
-.saas > div {
+.saas>div {
     padding: 2em;
     display: flex;
     flex-direction: column;
     gap: 1em;
     height: 100vh;
     flex-basis: 40%;
-    
 }
 
-.saas > div h2 {
+.saas>div h2 {
     font-size: 24px;
 }
 
-.saas > div p {
+.saas>div p {
     font-size: 18px;
 }
 

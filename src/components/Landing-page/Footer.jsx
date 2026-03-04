@@ -15,12 +15,13 @@ const Footer = () => {
         <div className="resource">
           <h3>Resource</h3>
           <div className="resource-links">
-            <Link to ="/faqs">FAQs</Link>
-            <Link to ="/contact-us">Contact Us</Link>
-            <Link to ="/blog-post">Blog Posts</Link>
-            <Link to ="/tac">Terms & Conditions</Link>
-            <Link to ="/privacy-policy">Privacy Policy</Link>
-            <Link to ="/data-protection">Data Protection</Link>
+            <Link to="/faqs">FAQs</Link>
+            <a href="mailto:contact@ejara.io">Contact Us</a>
+            {/* <Link to="/contact-us">Contact Us</Link> */}
+            <Link to="/blog-post">Blog Posts</Link>
+            <Link to="/tac">Terms & Conditions</Link>
+            <Link to="/privacy-policy">Privacy Policy</Link>
+            <Link to="/data-protection">Data Protection</Link>
           </div>
         </div>
 
