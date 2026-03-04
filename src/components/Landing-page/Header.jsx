@@ -150,7 +150,7 @@ const Header = () => {
           </li>
         </ul>
 
-        <LanguageSelector />
+        {/* <LanguageSelector /> */}
 
         <ul>
           <li className="region-menu-item">
@@ -159,7 +159,7 @@ const Header = () => {
               src="images/Ejara-assets/landingPage_images/download (5).svg"
               alt="Region icon"
             />
-            <p>Africa</p>
+            <p>Africa (Cameroon)</p>
             <RegionsMenu />
           </li>
         </ul>
@@ -188,7 +188,7 @@ const Header = () => {
                     src="images/Ejara-assets/landingPage_images/download (5).svg"
                     alt="Region icon"
                   />
-                  Africa
+                  Africa (Cameroon)
                 </div>
                 <div onClick={() => setAccordion(!accordion)}>
                   {accordion ? (
