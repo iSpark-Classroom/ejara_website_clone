@@ -5,7 +5,8 @@ import Guaranteed from "./Guaranteed";
 
 function Invest() {
   return (
-    <div className="container">
+    // <div className="container"> --> Shifts investment hero-section to the left
+      <div>
       <Investment />
       <InvestedSafely />
       <Guaranteed />

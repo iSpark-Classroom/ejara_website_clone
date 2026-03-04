@@ -1,11 +1,12 @@
 import React from "react";
 import "../../styles/Savings_project/project.css";
+
 function SectionTwo() {
   return (
     <>
       <div className="savingsProject">
         <div className="text-container">
-          <h1>Project savingsProject savings</h1>
+          <h1>Project savings</h1>
           <p>
             Make your dreams come true with Project Savings. Whether it's for
             back-to-school, a wedding, or a trip, we help you achieve your
@@ -27,7 +28,7 @@ function SectionTwo() {
       </div>
       <section className="project-process-section">
         <div className="title">
-          <h1>plan your future</h1>
+          <h1>Plan your future</h1>
           <p>Achieve your financial goals step by step</p>
         </div>
         <div className="img-card-section">

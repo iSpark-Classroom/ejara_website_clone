@@ -4,10 +4,10 @@ import "../../styles/Investment.css";
 const Investment = () => {
   return (
     <section className="investment">
-      <div className="invest w-[45%]">
-        <h1 className="font-black">Investment</h1>
+      <div className="text-container">
+        <h1>Investment</h1>
         <p>
-          Invested as professionals in government bonds from as early as CFAF
+          Invest as professionals in government bonds from as early as CFAF
           1000 and earns up to 6.5% annual interest. Capital is guaranteed by
           the Central African Bank of States (BEAC)
         </p>
