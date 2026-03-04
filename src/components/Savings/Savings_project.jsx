@@ -27,7 +27,7 @@ function SectionTwo() {
       </div>
       <section className="project-process-section">
         <div className="title">
-          <h1>plan your future</h1>
+          <h1 style={{ color: "black" }}>plan your future</h1>
           <p>Achieve your financial goals step by step</p>
         </div>
         <div className="img-card-section">
