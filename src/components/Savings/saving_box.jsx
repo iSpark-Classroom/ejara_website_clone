@@ -28,7 +28,7 @@ function SectionOne() {
       </div>
       <section className="process-section">
         <div className="title">
-          <h1 style={{ color: "black" }}>Savings without constraints</h1>
+          <h1>Savings without constraints</h1>
           {<p>Save without the stress of emergencies</p>}
         </div>
 

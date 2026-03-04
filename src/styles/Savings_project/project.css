@@ -9,7 +9,7 @@
     padding: 150px 0 0 0;
 }
 
-.savingsProject h1 {
+.savingsProject .text-container h1 {
     color: #fff;
     font-size: 3.3rem;
     width: fit-content;
