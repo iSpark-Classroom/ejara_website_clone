@@ -9,7 +9,7 @@
     padding: 150px 0 0 0;
 }
 
-.savingsBox h1 {
+.savingsBox .text-container h1 {
     color: #fff;
     font-size: 3.3rem;
     width: fit-content;
