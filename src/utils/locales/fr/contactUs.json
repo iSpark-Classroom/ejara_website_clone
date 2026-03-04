@@ -1,0 +1,20 @@
+{
+  "title": "Contactez-nous",
+  "intro": "Nous comblons le fossé entre les fournisseurs de services et les utilisateurs finaux",
+  "chat with experts": "Discutez avec nos experts",
+  "whatsapp": "(whatsapp)",
+  "send_mail": "Envoyez-nous un e-mail",
+  "send_mail_intro": "Notre équipe est là pour vous aider. Envoyez un e-mail à",
+  "connect_with": "Connectez-vous avec nous sur les réseaux sociaux",
+  "supportFormTitle": "Remplissez le formulaire d'assistance client",
+  "name" : "Nom",
+  "name_placeholder": "Ex. Damilola John",
+  "email": "Address mail",
+  "email_placeholder": "Ex. Dami@gmail.com",
+  "message": "Message",
+  "message_placeholder": "Tapez votre message",
+  "submit_button": "Envoyer",
+  "social_text": "Rejoignez-nous sur les réseaux sociaux"
+  
+
+}

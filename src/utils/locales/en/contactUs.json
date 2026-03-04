@@ -1,0 +1,19 @@
+{
+  "title": "Contact Us",
+  "intro": "we are bridging the gap between service providers and end users",
+  "chat with experts": "Chat with our Experts",
+  "whatsapp": "(whatsapp)",
+  "send_mail": "Send us a mail",
+  "send_mail_intro": "Our friendly team is here to help you. Send a mail to",
+  "connect_with": "Connect with us on Social media",
+  "supportFormTitle": "Fill the customer support form",
+  "name": "Name",
+  "name_placeholder": "E.g. Damilola John",
+  "email": "Email address",
+  "email_placeholder": "E.g. Dami@gmail.com",
+  "message": "Message",
+  "message_placeholder": "Type your message",
+  "submit_button": "Submit",
+  "social_text": "Connect with us on social media"
+  
+}

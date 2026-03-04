@@ -1,17 +1,20 @@
+@import "tailwindcss";
 @font-face {
-    font-family: 'Dm Sans';
-    src: url('../assets/fonts/DMSans-Regular.ttf') format('truetype');
+    font-family: "Dm Sans";
+    src: url("../assets/fonts/DM_Sans/DMSans-VariableFont.ttf") format("truetype");
+}
+
+:root {
+    --primary-color: blue;
 }
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 html,
 body {
-    font-family: 'Dm Sans', sans-serif;
+    font-family: "Dm Sans", sans-serif;
     scroll-behavior: smooth;
     font-size: 18px;
 }
@@ -25,7 +28,7 @@ body {
 
 section {
     min-height: 70dvh;
-    padding: 50px 3rem;
+    padding: 3rem;
     width: 100%;
 }
 
@@ -60,9 +63,10 @@ h4 {
     font-weight: 700;
     margin: 10px 0;
     color: #0c1825;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+    color: white;
 }
